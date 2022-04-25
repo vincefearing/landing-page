@@ -3,6 +3,11 @@ body {
     flex-direction: column;
 }
 
+.section-1 {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -11,14 +16,12 @@ body {
 
 .header ul {
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
-.section-1 {
+.content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    /* flex-basis: 0; */
+    justify-content: space-around;
 }
 
 ul {
