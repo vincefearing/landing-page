@@ -6,10 +6,11 @@ body {
 .section-1 {
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-evenly;
+    /* flex-basis: 0; */
 }
 
-.header {
+/* .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,13 +18,14 @@ body {
 .nav  {
     display: flex;
     gap: 18px;
+    justify-content: space-around;
 }
 
 .content {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 
 ul {
     list-style: none;
@@ -38,4 +40,8 @@ a {
 .office {
     width: 300px;
     height: auto;
+}
+
+.item {
+    width: 150px;
 }
