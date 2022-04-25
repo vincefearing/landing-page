@@ -3,29 +3,23 @@ body {
     flex-direction: column;
 }
 
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+}
+
 .section-1 {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     /* flex-basis: 0; */
 }
-
-/* .header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.nav  {
-    display: flex;
-    gap: 18px;
-    justify-content: space-around;
-}
-
-.content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
 
 ul {
     list-style: none;
